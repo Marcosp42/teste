@@ -6,7 +6,7 @@ html,body{
 .header1{
     border: 6px solid rgb(3, 179, 223);
     background-color: rgb(0, 0, 0);
-    height: 2000px ;
+    height: 100px ;
 }
 #id1{
     color: rgb(16, 212, 238);
@@ -14,4 +14,9 @@ html,body{
     margin-top: px;
     text-align: center;
    
+}
+.menu{
+    border: 6px solid rgb(3, 179, 223);
+    background-color: rgb(0, 0, 0);
+    height: 2000px ; 
 }
