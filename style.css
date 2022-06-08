@@ -1,19 +1,47 @@
-html,body{
-    margin: 0;
-    padding: 0;
+/* Importação Google fontes */
+@import url('https://fonts.googleapis.com/css2?family=Domine&display=swap');
+
+/* Layout */
+body{
+
     background-color: rgb(0, 0, 0);
-    Boder: 8px solid rgb(3, 179, 223);
+}
+.container{
+    margin: auto;
+    color: rgb(105, 232, 236);
+    text-align: center; 
+    border: 2px solid;
+    background-color: rgb(12, 12, 12); 
+ 
+}
+
+
+@media(min-width:576px){
+
+    .container{
+        max-width: 540px;
+    }
 
 }
-.header1{
-    border: 6px solid rgb(3, 179, 223);
-    background-color: rgb(0, 0, 0);
-    height: 100px ;
-}
-#id1{
-    color: rgb(16, 212, 238);
-    font-size: 50px;
-    margin-top: px;
-    text-align: center;
+@media(min-width:768px){
    
+    .container{
+        max-width: 720px;
+    }
+    
 }
+@media(min-width:992px){
+
+    .container{
+        max-width: 960px;
+    }
+    
+}
+@media(min-width:1200px){
+
+    .container{
+        max-width: 1140px;
+    }
+    
+}
+/*  */
