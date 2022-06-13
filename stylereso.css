@@ -1,3 +1,17 @@
+@keyframes pisca{
+    from{blackground-color: #000000;}
+    to{background-color:#0c001a;}
+    
+}
+.pisca{
+    background-color:#000724  ;
+    animation-name: pisca;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+
 @media(min-width:576px){
 
     body{
@@ -24,16 +38,4 @@
     body{
         max-width: 1140px;
     }
-}
-@keyframes pisca {
-    from{blackground-color: #ffffff;}
-    to{background-color:#0c001a;}
-    
-}
-.pisca{
-    background-color:#000724  ;
-    animation-name: pisca;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
 }
