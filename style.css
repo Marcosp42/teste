@@ -96,7 +96,7 @@ a{
         grid-area: a;
         display: inline-flex;
         border-bottom: 4px solid white;
-        padding-left: 1vw;
+        padding-left: 5vw;
     }
     #imglogo{
         height: 8vh;
@@ -131,7 +131,7 @@ a{
         margin: 0;
         margin-top: 20px;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        font-size: 4vh;
+        font-size: 3vh;
     }
     
     .item-menu-principal{
@@ -147,4 +147,5 @@ a{
         height: 250px;
     }
 }
+
 
