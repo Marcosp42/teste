@@ -4,8 +4,14 @@
     padding: 0;
 }
 body {
-    color: rgb(177, 238, 247);
-    background-color: rgb(64, 79, 83);
+    color: rgb(251, 252, 253);
+    background: #1F1C2C;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #03010c, #25232e);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #03010c, #25232e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    
+    
+    
 }
 .i-block{
     display: inline-block;
@@ -16,14 +22,14 @@ body {
 }
 a {
     text-decoration: none;
-    color: wheat;
+    color: rgb(255, 255, 255);
     display: inline-block;
 }
 @media screen and (min-width:1000px) {
     
     
     .BarraPrincipal {
-        background-color: black;
+        background-color: rgb(8, 3, 19);
         display: grid;
         grid-template-columns: 20% 1fr 1fr 20%;
         grid-template-rows: 100px;
@@ -39,6 +45,8 @@ a {
     }
     
     #h1logo {
+        text-shadow: 2px 5px 50px blue;
+        
         font-size: 45px;
         padding-top: 15px;
     }
@@ -57,11 +65,11 @@ a {
         font-size: 25px;
         display: inline-flex;
         padding-top: 60px;
+
     }
     
     .page-conetudo {
         width: 85%;
-        background-color: #191d20;
         margin: auto;
         padding: 40px;
     }
@@ -86,6 +94,7 @@ a {
         width: 100%;
         font: bolder 15px arial;
         text-align: center;
+        text-shadow: 2px 2px 2px #1F1C2C;
     }
     
 }
@@ -99,11 +108,10 @@ a {
         top: 0;
         width: 100%;
         height: 110px;
-        background-color: black;
+        background-color: rgb(8, 3, 19);
         color: white;
     }
     .page-conetudo{
-        background-color: #0e161b;
         padding: 5px;
     }
     .logo{
@@ -114,19 +122,22 @@ a {
     }
     #imglogo{
         height: 70px;
+        
     }
     #h1logo{
+        text-shadow: 2px 5px 50px blue;
         font-size: 40px;
         vertical-align: 50%;
     }
     ul{
+        text-shadow: 1px 1px 1px rgb(3, 4, 32);
         width: 90%;
         margin: auto;
     }
     .Img-filme{
         width: 114;
         height: 171px;
-        border: 4px solid black;
+        border: 5px double black;
     }
     .filme{
         vertical-align: top;
@@ -139,6 +150,8 @@ a {
         text-align: center;
         font-size: 0.8rem;
         overflow: hidden;
+        text-shadow: 3px 3px 3px #1c021f;
+
     }
     
     
