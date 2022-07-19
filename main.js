@@ -27,7 +27,7 @@ var HomemAranhaLar1 = "Homem-Aranha-De-Volta-ao-Lar-(2017)/aa73d61cad355f99466f3
 var HomemAranhaLar2 = "Homem-Aranha-Longe-de-Casa-(2019)/76601fda621ad7e65e9caedf3a54c9193115b72a/bb50db.mp4";
 var HomemAranhaLar3 = "Homem-Aranha---Sem-Volta-Para-Casa-(2021)/07d3a08aac14a00dfefac9c1ab91ffeb9543e123/965f5a.mp4";
 var Vingadores1 = "Os_Vingadores_1/7098939a9538bc2745cc7ed9c4ec468e72e9d331/078a01.mp4";
-var Vingadores2 = "vingadores.2/a1df3d7502e65224ec177675b1c770a86a29bae4/c15225.mp4";
+var Vingadores2 = "Os_Vingadores_2/079e455375d2a75dded005e1fa7bd8b5ae24b034/7bc44d.mp4";
 var Vingadores3 = "vingadores.guerra.infinita/a1f6724b6259d8fdfae2453f02e3f85745fe1546/bbebc8.mp4";
 var Vingadores4 = "Vingadores.Ultimato/57fc85a51021550ae409d88b71445e4c1ddc17ca/b4ecaa.mp4";
 function assistir(filme) {
