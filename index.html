@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-    <title>Linkverso</title> 
-    
+    <title>Linkverso</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://www.gstatic.com/firebasejs/9.9.0/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.9.0/firebase-firestore-compat.js"></script>
 </head>
+
 <body class="container">
     <header class="BarraPrincipal">
         <div class="logo">
@@ -24,12 +27,18 @@
         </nav>
     </header>
     <div id="page" class="page-conetudo">
-        <div  id="post">
+        <div id="post">
         </div>
     </div>
-    <video style="display: none" ; controls controlslist ="nodownload" id="page-filme"></video>
+    <video style="display: none" ; controls controlslist="nodownload" id="page-filme"></video>
     <script src="main.js"></script>
-    <footer><h3>www.linkverso.com não hospeda nenhuma obra protegida pela Lei de Direitos Autorais. Todo conteudo é apenas indexado através de links que são obtidos através de pesquisas em motores de buscas, como o próprio Google e simplesmente são organizamos fazendo a “incorporação” (embed) dos vídeos no site. Nós não nos responsabilizamos pelos arquivos encontrados através desses links externos.</h3></footer>
+    <footer>
+        <h3>www.linkverso.com não hospeda nenhuma obra protegida pela Lei de Direitos Autorais. Todo conteudo é apenas
+            indexado através de links que são obtidos através de pesquisas em motores de buscas, como o próprio Google e
+            simplesmente são organizamos fazendo a “incorporação” (embed) dos vídeos no site. Nós não nos
+            responsabilizamos pelos arquivos encontrados através desses links externos.</h3>
+    </footer>
+
 </body>
 
 </html>
