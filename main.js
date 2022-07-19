@@ -17,7 +17,6 @@ const firebaseApp = firebase.initializeApp({ apiKey: "AIzaSyAjPebuAzvE2ACTnfCSrd
     })
 //Elemento Pai primario
 var ur = document.getElementById("post");
-var api = "https://player.odycdn.com/api/v3/streams/free/";
 function filmes(nome, imge, link) {
     this.nome = nome;
     this.imge = imge;
@@ -35,7 +34,7 @@ function filmes(nome, imge, link) {
     //Atribuição de valores
     NewDiv.onclick = function a() {
         var frame = document.getElementById("page-filme");
-        frame.setAttribute("src", api + link);
+        frame.setAttribute("src", link);
         var ele = document.getElementById("page");
         ele.style.display = "none";
         frame.style.display = "block";
