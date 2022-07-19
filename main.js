@@ -55,8 +55,8 @@ new filmes("O Espetacular Homem-Aranha 2: A Ameaça de Electro", "https://www.th
 new filmes("Homem-Aranha: De Volta ao Lar", "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/9Fgs1ewIZiBBTto1XDHeBN0D8ug.jpg", "Homem-Aranha-De-Volta-ao-Lar-(2017)/aa73d61cad355f99466f3cdb013652ee365b2d7f/67d329.mp4");
 new filmes("Homem-Aranha Longe de Casa", "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/6wtOOCzTNxzwzwvpMeimMHQNTqI.jpg", "Homem-Aranha-Longe-de-Casa-(2019)/76601fda621ad7e65e9caedf3a54c9193115b72a/bb50db.mp4");
 new filmes("Homem-Aranha - Sem Volta Para Casa", "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/fVzXp3NwovUlLe7fvoRynCmBPNc.jpg", "Homem-Aranha---Sem-Volta-Para-Casa-(2021)/07d3a08aac14a00dfefac9c1ab91ffeb9543e123/965f5a.mp4");
-new filmes("Vingadores 1 - The Avengers", "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/u49fzmIJHkb1H4oGFTXtBGgaUS1.jpg", "Os_Vingadores_1/7098939a9538bc2745cc7ed9c4ec468e72e9d331/078a01.mp4");
-new filmes("Vingadores 2 - Era de Ultron", "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/vGIIl89vglo66yUfbuTxzNAs4y5.jpg", "Os_Vingadores_2/079e455375d2a75dded005e1fa7bd8b5ae24b034/7bc44d.mp4");
-new filmes("Vingadores 3 - Guerra Infinita", "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/d6jUbQj4E4R5MJlFYfdzANEZbkL.jpg", "vingadores.guerra.infinita/a1f6724b6259d8fdfae2453f02e3f85745fe1546/bbebc8.mp4");
+new filmes("Vingadores 1 - The Avengers", "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/u49fzmIJHkb1H4oGFTXtBGgaUS1.jpg", "Os-Vingadores-The-Avengers/26ab5431c9c2c95694718c870c59a2a84a7f457c/22dc1c.mp4");
+new filmes("Vingadores 2 - Era de Ultron", "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/vGIIl89vglo66yUfbuTxzNAs4y5.jpg", "OS-Vingadores-2-Era-de-Ultron/551a71f823cfd98865d51c851af0791a5c7b1a12/d7f037.mp4");
+new filmes("Vingadores 3 - Guerra Infinita", "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/d6jUbQj4E4R5MJlFYfdzANEZbkL.jpg", "Os-Vingadores-3-Guerra-Infinita/cdc2b76b91896fbe7cdfc368c0a7dd59aecee560/3f920b.mp4");
 new filmes("Vingadores 4 - Ultimato", "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/zBXAjVMp92PvGovg148Qz0IjrEF.jpg", "Vingadores.Ultimato/57fc85a51021550ae409d88b71445e4c1ddc17ca/b4ecaa.mp4");
 
