@@ -16,15 +16,15 @@ const firebaseApp = firebase.initializeApp({ apiKey: "AIzaSyAjPebuAzvE2ACTnfCSrd
         });
     })
 //Elemento Pai primario
-var ur = document.getElementById("post");
+const ur = document.getElementById("post");
 function filmes(nome, imge, link) {
     this.nome = nome;
     this.imge = imge;
     this.link = link;
     //Criação dos elementos
-    var NewDiv = document.createElement("div");
-    var NewImg = document.createElement("img");
-    var NewH2 = document.createElement("h2");
+    const NewDiv = document.createElement("div");
+    const NewImg = document.createElement("img");
+    const NewH2 = document.createElement("h2");
     //Definição de propriedades
     NewDiv.classList.add("filme");
     ur.appendChild(NewDiv);
@@ -33,9 +33,9 @@ function filmes(nome, imge, link) {
     NewDiv.appendChild(NewH2);
     //Atribuição de valores
     NewDiv.onclick = function a() {
-        var frame = document.getElementById("page-filme");
+        const frame = document.getElementById("page-filme");
         frame.setAttribute("src", link);
-        var ele = document.getElementById("page");
+        const ele = document.getElementById("page");
         ele.style.display = "none";
         frame.style.display = "block";
         frame.classList.add("page-filme");
