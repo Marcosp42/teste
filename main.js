@@ -39,7 +39,7 @@ function filmes(nome, imge, link) {
         let DivPlayer = document.createElement("div")
         let player = document.createElement("video");
         ur.style.display = "none";
-        img_destaque.style.display = "none";
+        destaques.style.display = "none";
         document.body.appendChild(DivPlayer);
         DivPlayer.classList.add("frame")
         DivPlayer.appendChild(player)
@@ -49,6 +49,7 @@ function filmes(nome, imge, link) {
         player.style.width = '100%';    
 }
 }
+const destaques = document.getElementById("destaques");
 const img_destaque = document.getElementById("img-destaque");
 ImgDestaque = ["https://images2.alphacoders.com/516/thumb-1920-516664.jpg","https://images2.alphacoders.com/582/thumb-1920-582423.jpg","https://images2.alphacoders.com/589/thumb-1920-589553.png","https://images6.alphacoders.com/902/thumb-1920-902379.jpg"];
 
