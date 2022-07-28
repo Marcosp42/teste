@@ -51,7 +51,7 @@ function filmes(nome, imge, link) {
 }
 const destaques = document.getElementById("destaques");
 const img_destaque = document.getElementById("img-destaque");
-ImgDestaque = ["https://images2.alphacoders.com/516/thumb-1920-516664.jpg","https://images2.alphacoders.com/582/thumb-1920-582423.jpg","https://images2.alphacoders.com/589/thumb-1920-589553.png","https://images6.alphacoders.com/902/thumb-1920-902379.jpg"];
+ImgDestaque = ["https://images5.alphacoders.com/329/thumb-1920-329544.jpg","https://images6.alphacoders.com/534/thumb-1920-534437.png","https://images4.alphacoders.com/100/thumb-1920-1002370.jpg","https://images5.alphacoders.com/887/thumb-1920-887363.jpg"];
 
 
 img_destaque.setAttribute("src", ImgDestaque[0]);
