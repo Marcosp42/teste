@@ -2,21 +2,16 @@
     margin: 0;
     padding: 0;
 }
-
 body {
     padding-top: 120px;
     color: azure;
     background-color: black;
-
-
 }
-
 header+img,
 nav,
 li {
     display: inline-block;
 }
-
 header {
     background-color: black;
     width: 100%;
@@ -25,50 +20,40 @@ header {
     text-align: center;
     margin-bottom: 5px;
 }
-
 .logo {
     padding-top: 5px;
     height: clamp(4em, 3vw, 6em);
 }
-
 a {
     text-decoration: none;
     color: azure;
     font-size: 20px;
 }
-
 .pesquisa {
     display: inline-block;
 }
-
 button {
     background-color: transparent;
     border: none;
     vertical-align: middle;
 }
-
 button img {
     height: 40px;
 }
-
-
 .destaques {
     text-align: center;
 }
-
 .destaques button {
     position: relative;
     display: inline;
     bottom: clamp(2em, 17vw, 80em);
 }
-
 .destaques button>img {
     position: relative;
     display: inline;
     height: clamp(1em, 8vw, 5em);
 
 }
-
 .destaques>img {
     display: inline;
 
@@ -76,35 +61,27 @@ button img {
     margin: auto;
     height: clamp(10em, 36vw, 80em);
 }
-
 .Pagina-Filmes {
     text-align: center;
     width: 80%;
     margin: auto;
 }
-
 .Obj-filme {
     display: inline-block;
     vertical-align: top;
 }
-
 .Obj-filme h2 {
     font-size: clamp(10px, 20px, 15px)
 }
 .frame{
     width: 80%;
     margin: 50px auto;
-    }
-
+}
 /* footer{
     background-color: #000000;
     position: fixed;
     bottom: 0;
 } */
-
-
-
-
 @media screen and (min-width:320px) {
 
     .Pagina-Filmes {
@@ -124,9 +101,7 @@ button img {
     }
 
 }
-
 @media screen and (min-width:390px) {
-
     .Pagina-Filmes {
         width: 100%;
     }
@@ -143,7 +118,6 @@ button img {
         height: 170px;
     }
 }
-
 @media screen and (min-width:600px) {
     .Pagina-Filmes {
         width: 90%;
@@ -160,44 +134,34 @@ button img {
         width: 100%;
         height: 190px;
     }
-
-
 }
-
 @media screen and (min-width: 1082px) {
     .Pagina-Filmes {
         width: 90%;
     }
-
     .Obj-filme {
         text-align: center;
         margin: 10px;
         width: 200px;
         height: 270px;
     }
-
     .Obj-filme>img {
         width: 100%;
         height: 230px;
     }
-
 }
-
 @media screen and (min-width: 1600px) {
     .Pagina-Filmes {
         width: 90%;
     }
-
     .Obj-filme {
         text-align: center;
         margin: 20px;
         width: 230px;
         height: 290px;
     }
-
     .Obj-filme>img {
         width: 100%;
         height: 270px;
     }
-
 }
